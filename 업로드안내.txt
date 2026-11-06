@@ -1,0 +1,9 @@
+제조사별 MSDS 페이지 포함 전체 파일입니다.
+
+1. 새 폴더에 압축을 풉니다.
+2. GitHub 저장소에서 Add file → Upload files를 누릅니다.
+3. 이 폴더 안의 파일을 모두 선택해 업로드합니다. 폴더나 ZIP 자체를 올리지 않습니다.
+4. Commit changes를 누릅니다.
+5. 배포 후 홈의 제조사별 MSDS 자료실 보기를 확인합니다.
+
+자료 목록을 바꾸면 제조사별 HTML도 다시 만들어야 합니다. 다음 업데이트 때 전체 파일을 교체하세요. 생성 도구는 build-manufacturer-pages.cjs이며 Node.js 표준 모듈만 사용합니다. 실행: node build-manufacturer-pages.cjs
